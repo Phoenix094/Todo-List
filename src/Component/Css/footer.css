@@ -1,13 +1,14 @@
 .h100{
     position:relative ;
     height: 10vh;
-    top:90vh;
+    
 }
 p{
     margin-left: 30px;
     font-size: large;
     padding-top: 20px;
 }
-.bg-purpalLight{
-    background-color: #603eb3;
+.bg-custom{
+    background-color: #312295;
 }
+

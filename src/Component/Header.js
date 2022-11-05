@@ -6,7 +6,7 @@ import {Nav,Navbar} from 'react-bootstrap';
 const Header = () => {
   return (
     <>
-      <Navbar bg='purpalLight' variant='dark' expand='md'>
+      <Navbar bg='custom' variant='dark' expand='md'>
         <Navbar.Brand href='#'>
           <img src='./logo.png' alt="..." width={40} height={40} />{'                    '}
           Todo List
