@@ -1,12 +1,13 @@
 import React from 'react'
+import './Css/footer.css'
 
 const Footer = () => {
   return (
     <>
-     <footer className='bg-dark text-light h100'>
+     <footer className='bg-purpalLight text-light h100'>
         
 
-        <p className='text-center'> &copy;Todo list</p>
+        <p className=''> &copy;Todo list Somesh Chavhan</p>
         
      </footer>   
     </>

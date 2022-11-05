@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Css/Header.css';
 import {Nav,Navbar} from 'react-bootstrap';
 
 
 const Header = () => {
   return (
     <>
-      <Navbar bg='dark' variant='dark' expand='md'>
+      <Navbar bg='purpalLight' variant='dark' expand='md'>
         <Navbar.Brand href='#'>
           <img src='./logo.png' alt="..." width={40} height={40} />{'                    '}
           Todo List
