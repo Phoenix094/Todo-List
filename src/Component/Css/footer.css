@@ -2,12 +2,11 @@
     display: flex;
     justify-content: baseline;
     position:sticky ;
-    height: 10vh;
-    margin-top: 20vh;
+    height: 23vh;
+    margin-top: 24vh;
     
 }
 p{
-    margin-left: 30px;
     font-size: large;
     padding-top: 20px;
 }
