@@ -1,15 +1,15 @@
 import React from 'react';
 import './Css/Header.css';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Image, Nav, Navbar } from 'react-bootstrap';
 
 
 const Header = () => {
- 
+
   return (
     <><nav>
       <Navbar bg='custom' variant='dark' expand='md'>
         <Navbar.Brand href='#'>
-          <img src='./logo.png' alt="..." width={40} height={40} />{'                    '}
+          <Image src='./logo.png' alt="..." width={40} height={40} roundedCircle/>{'                    '}
           Todo List
         </Navbar.Brand>
 
@@ -22,7 +22,7 @@ const Header = () => {
 
         </Navbar.Collapse>
 
-        
+
       </Navbar>
 
     </nav>
